@@ -1,0 +1,57 @@
+[
+  {
+    "id": "p1",
+    "title": "Introducing Our New Starter",
+    "excerpt": "A quick tour of the React + Vite + MUI + Tailwind starter with auth and routing.",
+    "image": "https://images.unsplash.com/photo-1518779578993-ec3579fee39f?w=1200&q=80&auto=format&fit=crop",
+    "featured": true,
+    "author": "Team",
+    "date": "2025-09-15"
+  },
+  {
+    "id": "p2",
+    "title": "Dark vs Light: Theming Tips",
+    "excerpt": "Learn how to combine MUI theming with Tailwind's dark mode utilities for a cohesive UI.",
+    "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1200&q=80&auto=format&fit=crop",
+    "featured": false,
+    "author": "Alex",
+    "date": "2025-09-10"
+  },
+  {
+    "id": "p3",
+    "title": "Router Patterns for Protected Routes",
+    "excerpt": "A simple approach to protected routes in React Router with an AuthContext.",
+    "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1200&q=80&auto=format&fit=crop",
+    "featured": false,
+    "author": "Sam",
+    "date": "2025-09-08"
+  },
+  {
+    "id": "p4",
+    "title": "Optimizing Mobile-first Layouts",
+    "excerpt": "Designing full-screen button navigation and responsive grids the easy way.",
+    "image": "https://images.unsplash.com/photo-1516251193007-45ef944ab0c6?w=1200&q=80&auto=format&fit=crop",
+    "featured": true,
+    "author": "Jamie",
+    "date": "2025-08-31"
+  },
+  {
+    "id": "p5",
+    "title": "Axios Setup with Token Injection",
+    "excerpt": "Centralize your API calls with interceptors for auth tokens and 401 handling.",
+    "image": "https://images.unsplash.com/photo-1483478550801-ceba5fe50e8e?w=1200&q=80&auto=format&fit=crop",
+    "featured": false,
+    "author": "Taylor",
+    "date": "2025-08-25"
+  },
+  {
+    "id": "p6",
+    "title": "Using react-icons Effectively",
+    "excerpt": "Enhance navigation and actions with consistent, accessible icons.",
+    "image": "https://images.unsplash.com/photo-1454165205744-3b78555e5572?w=1200&q=80&auto=format&fit=crop",
+    "featured": false,
+    "author": "Riley",
+    "date": "2025-08-18"
+  }
+]
+

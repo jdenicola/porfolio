@@ -1,0 +1,56 @@
+{
+  "header.brand": "JDENICOLA",
+  "header.aria.toggleTheme": "Cambiar tema",
+  "header.aria.menu": "Menú",
+  "header.aria.language": "Idioma",
+  "header.alt.logo": "logotipo",
+
+  "lang.ENG": "ENG",
+  "lang.SPA": "SPA",
+
+  "nav.home": "Inicio",
+  "nav.portfolio": "Portafolio",
+  "nav.settings": "Configuración",
+  "nav.about": "Acerca de",
+
+  "menu.Home": "Inicio",
+  "menu.Portfolio": "Portafolio",
+  "menu.Settings": "Configuración",
+  "menu.About": "Acerca de",
+  "menu.Logout": "Cerrar sesión",
+
+  "home.latestPosts": "Últimas publicaciones",
+
+  "posts.loading": "Cargando...",
+  "posts.error.load": "Error al cargar publicaciones",
+  "posts.error.loadMore": "Error al cargar más publicaciones",
+  "posts.unknownAuthor": "Desconocido",
+  "posts.readMore": "Leer más",
+  "posts.loadMore": "Cargar más",
+  "posts.loadingMore": "Cargando más...",
+
+  "portfolio.title": "Portafolio",
+  "portfolio.error.load": "Error al cargar biografía",
+
+  "common.loading": "Cargando...",
+
+  "settings.title": "Configuración",
+  "settings.comingSoon": "Próximamente.",
+
+  "about.title": "Acerca de",
+  "about.description": "Este es un inicio con React, Vite, MUI 6 y Tailwind CSS.",
+
+  "theme.demoTitle": "Demostración de tema",
+  "theme.currentMode": "Modo actual:",
+  "theme.mixInfo": "Esta tarjeta combina componentes MUI con utilidades Tailwind claro/oscuro.",
+  "theme.toggle": "Cambiar tema",
+  "theme.outlinedExample": "Ejemplo delineado",
+  "theme.mode.dark": "oscuro",
+  "theme.mode.light": "claro",
+
+  "login.signIn": "Iniciar sesión",
+  "login.username": "Usuario",
+  "login.password": "Contraseña",
+  "login.failed": "Error de inicio de sesión",
+  "login.signingIn": "Iniciando sesión..."
+}

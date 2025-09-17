@@ -1,0 +1,56 @@
+{
+  "header.brand": "JDENICOLA",
+  "header.aria.toggleTheme": "Toggle theme",
+  "header.aria.menu": "Menu",
+  "header.aria.language": "Language",
+  "header.alt.logo": "logo",
+
+  "lang.ENG": "ENG",
+  "lang.SPA": "SPA",
+
+  "nav.home": "Home",
+  "nav.portfolio": "Portfolio",
+  "nav.settings": "Settings",
+  "nav.about": "About",
+
+  "menu.Home": "Home",
+  "menu.Portfolio": "Portfolio",
+  "menu.Settings": "Settings",
+  "menu.About": "About",
+  "menu.Logout": "Logout",
+
+  "home.latestPosts": "Latest Posts",
+
+  "posts.loading": "Loading...",
+  "posts.error.load": "Failed to load posts",
+  "posts.error.loadMore": "Failed to load more posts",
+  "posts.unknownAuthor": "Unknown",
+  "posts.readMore": "Read more",
+  "posts.loadMore": "Load more",
+  "posts.loadingMore": "Loading more...",
+
+  "portfolio.title": "Portfolio",
+  "portfolio.error.load": "Failed to load bio",
+
+  "common.loading": "Loading...",
+
+  "settings.title": "Settings",
+  "settings.comingSoon": "Coming soon.",
+
+  "about.title": "About",
+  "about.description": "This is a starter using React, Vite, MUI 6, and Tailwind CSS.",
+
+  "theme.demoTitle": "Theme demo",
+  "theme.currentMode": "Current mode:",
+  "theme.mixInfo": "This card mixes MUI components with Tailwind dark/light utilities.",
+  "theme.toggle": "Toggle theme",
+  "theme.outlinedExample": "Outlined example",
+  "theme.mode.dark": "dark",
+  "theme.mode.light": "light",
+
+  "login.signIn": "Sign in",
+  "login.username": "Username",
+  "login.password": "Password",
+  "login.failed": "Login failed",
+  "login.signingIn": "Signing in..."
+}

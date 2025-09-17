@@ -1,0 +1,36 @@
+{
+  "About Me": [
+    { "item": "Name", "value": "Jane Developer" },
+    { "item": "Role", "value": "Full-Stack Engineer" },
+    { "item": "Location", "value": "Remote / San Francisco, CA" }
+  ],
+  "Experience": [
+    { "item": "2023–Present", "value": "Senior Engineer at Acme Corp, leading web platform modernization." },
+    { "item": "2020–2023", "value": { "value": "Frontend Engineer at Example Inc (design systems)", "url": "https://example.com" } }
+  ],
+  "Skills": [
+    { "item": "Languages", "value": "TypeScript, JavaScript, Node.js" },
+    { "item": "Frameworks", "value": "React, Vite, Express" },
+    { "item": "UI", "value": "Material UI, Tailwind CSS" }
+  ],
+  "Education": [
+    { "item": "BSc Computer Science", "value": "Tech University" }
+  ],
+  "Projects": {
+    "2025": [
+      {
+        "item": "Personal Site",
+        "value": "Built with React + Vite, deployed on Netlify",
+        "link": "https://example.com",
+        "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1200&q=80&auto=format&fit=crop"
+      }
+    ],
+    "2024": [
+      {
+        "item": "Design System",
+        "value": "Created a cross-platform design system in MUI",
+        "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1200&q=80&auto=format&fit=crop"
+      }
+    ]
+  }
+}
