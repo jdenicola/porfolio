@@ -36,9 +36,9 @@ export function PortfolioItem({ entry }: { entry: BioItem }) {
       <Typography component="p" className="text-red-600 bg-gray-100">
         <strong>{entry.item}: </strong> {renderValue()}
       </Typography>
-      <Typography component="p" className="text-red-600 bg-gray-100">
-        {entry.extra_info}
-      </Typography>
+      { entry.extra_info && 
+        <Typography className="text-red-600 bg-gray-100 mb-4">{entry.extra_info} ·</Typography> 
+      }
       {entry.image ? (
         <img
           src={entry.image}
