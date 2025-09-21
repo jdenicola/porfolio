@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react'
 import { Portfolio } from '../ui/Portfolio'
 import type { BioData } from '../types/bio'
 import { useI18n } from '../context/I18nContext'
+import { withBasePath } from '../lib/basePath'
 
 export function PortfolioPage() {
   const [bio, setBio] = useState<BioData | null>(null)
@@ -14,7 +15,8 @@ export function PortfolioPage() {
     let mounted = true
     ;(async () => {
       try {
-        const res = await fetch('/bio.json')
+        console.log(withBasePath('bio.json'))
+        const res = await fetch(withBasePath('bio.json'))
         if (!res.ok) throw new Error(t('portfolio.error.load', 'Failed to load bio'))
         const data = (await res.json()) as BioData
         if (mounted) setBio(data)

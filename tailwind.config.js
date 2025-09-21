@@ -7,7 +7,13 @@ export default {
     './src/**/*.{ts,tsx,js,jsx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      screens: {
+        sm: "480px",
+        md: "768px",
+        lg: "976px",
+      },
+    },
   },
   plugins: [],
 }

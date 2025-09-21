@@ -9,4 +9,5 @@ export type Post = {
   author?: Linkable
   date?: Linkable
   url?: string
+  body?: string
 }

@@ -18,12 +18,13 @@ import { useAuth } from '../context/AuthContext'
 import { menuItems } from '../data/menuItems'
 import { useThemeMode } from '../context/ThemeContext'
 import { useI18n } from '../context/I18nContext'
+import { withBasePath } from '../lib/basePath'
 
 export function Header() {
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null)
   const open = Boolean(anchorEl)
   const navigate = useNavigate()
-  const { logout } = useAuth()
+  const { isAuthenticated } = useAuth()
   const { mode, toggleMode } = useThemeMode()
   const { lang, setLang, t } = useI18n()
 
@@ -35,8 +36,8 @@ export function Header() {
   const handleItem = (path?: string, action?: 'logout') => {
     handleClose()
     if (action === 'logout') {
-      logout()
-      navigate('/login', { replace: true })
+      // Route-based logout to centralize behavior
+      navigate('/logout', { replace: true })
       return
     }
     if (path) navigate(path)
@@ -46,7 +47,7 @@ export function Header() {
     <AppBar position="static" color="primary">
       <Toolbar className="flex items-center justify-between">
         <Box className="flex items-center gap-2">
-          <img src="/vite.svg" alt={t('header.alt.logo', 'logo')} className="h-6 w-6" />
+          <img src={withBasePath('vite.svg')} alt={t('header.alt.logo', 'logo')} className="h-6 w-6" />
           <Typography variant="h6" component="div">
             {t('header.brand', 'JDENICOLA')}
           </Typography>
@@ -91,11 +92,24 @@ export function Header() {
             anchorOrigin={{ vertical: 'bottom', horizontal: 'right' }}
             transformOrigin={{ vertical: 'top', horizontal: 'right' }}
           >
-            {menuItems.map((item) => (
-              <MenuItem key={item.label} onClick={() => handleItem(item.path, item.action)}>
-                {t('menu.' + item.label, item.label)}
+            {menuItems
+              .filter((item) => !(item.action === 'logout' && !isAuthenticated))
+              .map((item) => (
+                <MenuItem key={item.label} onClick={() => handleItem(item.path, item.action)}>
+                  {t('menu.' + item.label, item.label)}
+                </MenuItem>
+              ))}
+            {!isAuthenticated && (
+              <MenuItem onClick={() => handleItem('/login')}>
+                {t('menu.Login', 'Login')}
               </MenuItem>
-            ))}
+            )}
+            {/* Admin-only item (visible only when logged in) */}
+            {isAuthenticated && (
+              <MenuItem onClick={() => handleItem('/admin/posts')}>
+                {t('menu.ManagePosts', 'Manage Posts')}
+              </MenuItem>
+            )}
           </Menu>
         </div>
       </Toolbar>

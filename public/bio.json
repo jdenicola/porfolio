@@ -1,36 +1,76 @@
 {
   "About Me": [
-    { "item": "Name", "value": "Jane Developer" },
-    { "item": "Role", "value": "Full-Stack Engineer" },
-    { "item": "Location", "value": "Remote / San Francisco, CA" }
+    { "item": "Name", "value": "Juan Ignacio De Nicola" },
+    { "item": "Role", "value": "Tech Leader | Full Stack Engineering | Python & Cloud Solutions | Performance Optimization Expert" },
+    { "item": "Location", "value": "Argentina" },
+    { "item": "LinkedIn", "value": "Go to LinkedIn","link": "https://www.linkedin.com/in/juandenicola" },
+    { "item": "Email", "value": "juan.ignacio.de.nicola@gmail.com" }
+  ],
+  "Summary": [
+    {
+      "item": "Extracto",
+      "value": "Tech Leader y Full Stack Software Engineer con más de 10 años de experiencia liderando equipos ágiles y proyectos de transformación digital en entornos complejos.",
+      "extra_info": "Especialista en Python, Java, React, Go, Cloud, Kubernetes, OpenShift y Software Architecture, combino visión estratégica con capacidad técnica para optimizar plataformas, reducir costos y mejorar performance. He liderado migraciones a tecnologías globales, logrando disminuir soporte en un 40% y mejorar métricas de experiencia de usuario (LCP en 50%), trabajando con equipos cross-functional en diferentes países."
+    }
   ],
   "Experience": [
-    { "item": "2023–Present", "value": "Senior Engineer at Acme Corp, leading web platform modernization." },
-    { "item": "2020–2023", "value": { "value": "Frontend Engineer at Example Inc (design systems)", "url": "https://example.com" } }
-  ],
-  "Skills": [
-    { "item": "Languages", "value": "TypeScript, JavaScript, Node.js" },
-    { "item": "Frameworks", "value": "React, Vite, Express" },
-    { "item": "UI", "value": "Material UI, Tailwind CSS" }
+    {
+      "item": "2023–Present",
+      "value": "Tech Leader en Santander Tecnología Argentina",
+      "extra_info": "Liderando un equipo de 5 ingenieros en la migración de productos a tecnologías globales, coordinando con equipos internacionales para garantizar la adopción sin interrupciones. Implementé mejoras de performance que redujeron LCP en un 50% y prácticas de observability y automatización que redujeron el soporte en un 40%."
+    },
+    {
+      "item": "2022–2024",
+      "value": "SSR Software Engineer en Santander Tecnología Argentina",
+      "extra_info": "Implementé nuevas herramientas para reducir soporte de nuestra herramienta SaaS. Mejora de la observabilidad de nuestro producto con Dynatrace para ver Core Web Vitals y problemas de performance. Implementación, migración y creación del backoffice para aprovisionamiento de repositorios para nueva herramienta de control de versiones."
+    },
+    {
+      "item": "2020–2022",
+      "value": "Full Stack Software Engineer en Gigared",
+      "extra_info": "Optimicé el sistema de facturación, eliminando bloqueos que interrumpían ventas y asegurando continuidad en la generación de ingresos. Automatizé procesos y migré infraestructura a contenedores logrando 0% downtime. Desarrollé herramientas de gestión de soporte técnico utilizadas por toda la organización, mejorando la retención de clientes."
+    },
+    {
+      "item": "2011–2020",
+      "value": "Técnico Electrónico Especializado en Metrovías",
+      "extra_info": "Responsable del mantenimiento y operación de la infraestructura de comunicación del sistema SUBE en la red de subte de Buenos Aires. Desarrollo de scripts y aplicaciones en Python, .NET y MongoDB para automatizar procesos y optimizar tiempos de respuesta ante incidencias."
+    },
+    {
+      "item": "2009–2011",
+      "value": "Técnico Electrónico Senior en VORTEX7 SA",
+      "extra_info": "Reparación, mantenimiento e I+D de diversos componentes ubicados en computadoras de escritorio, notebooks, servidores, trabajando con la marca Hewlett-Packard."
+    },
+    {
+      "item": "2008",
+      "value": "Técnico en Sistema de Control de Pasajes en Metrovías",
+      "extra_info": "Reparación y mantenimiento preventivo de control de acceso y puntos de recarga del sistema Monedero/Sube ubicado en boleterías. Desarrollo de soluciones de control de acceso en Ferrocarril Urquiza."
+    }
   ],
   "Education": [
-    { "item": "BSc Computer Science", "value": "Tech University" }
+    { "item": "Instituto Da Vinci", "value": "Diseñador Multimedia (2011–2014)", "extra_info": "Diseño multimedia." },
+    { "item": "Instituto Pio IX", "value": "Técnico en Electrónica Industrial (2003–2008)", "extra_info": "Tecnología/Técnico de electrónica industrial." },
+    { "item": "ILVEM", "value": "Brain Training Method (2005–2008)" }
   ],
-  "Projects": {
-    "2025": [
-      {
-        "item": "Personal Site",
-        "value": "Built with React + Vite, deployed on Netlify",
-        "link": "https://example.com",
-        "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=1200&q=80&auto=format&fit=crop"
-      }
-    ],
-    "2024": [
-      {
-        "item": "Design System",
-        "value": "Created a cross-platform design system in MUI",
-        "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?w=1200&q=80&auto=format&fit=crop"
-      }
-    ]
-  }
+  "Skills": [
+    { "item": "Programming", "value": "Python, Java, Go, JavaScript, Vue.js, React, .NET Core, Django, Flask" },
+    { "item": "Cloud & DevOps", "value": "Kubernetes, OpenShift, Docker, GitLab, GitHub, CI/CD, Dynatrace" },
+    { "item": "Databases", "value": "SQL, MySQL, MongoDB" },
+    { "item": "Other", "value": "Microservices, SaaS Optimization, Observability, Embedded Systems" }
+  ],
+  "Languages": [
+    { "item": "English", "value": "Professional Working" },
+    { "item": "Spanish", "value": "Native" }
+  ],
+  "Certifications": [
+    { "item": "Event Driven Architecture Development", "value": "Certified" },
+    { "item": "Software Architecture and Clean Code Design in OOP", "value": "Certified" },
+    { "item": "Liderazgo: Gerencia en Tecnología/Ingeniería", "value": "Certified" },
+    { "item": "Certificación Profesional de Coaching Nivel 1", "value": "Certified" },
+    { "item": "Getting Started with Red Hat OpenShift", "value": "Certified" },
+    { "item": "Scrum Master", "value": "Certified" }
+  ],
+  "Aptitudes Principales": [
+    { "item": "Programación", "value": "Advanced" },
+    { "item": "Ciclo de vida de desarrollo de software (SDLC)", "value": "Advanced" },
+    { "item": "Liderazgo", "value": "Advanced" }
+  ]
 }

@@ -76,11 +76,11 @@ export function PostsGrid() {
   // moved link rendering logic into PostCardContent
 
   return (
-    <div className="grid xl:grid-cols-3 md:grid-cols-1 gap-4 p-4 pb-20">
+    <div className="grid sm:grid-cols-2 md:grid-cols-3 grid-cols-1 gap-4 p-4 pb-20">
       {posts.map((post) => (
         <article
           key={post.id}
-          className={post.featured ? 'xl:col-span-2 md:col-span-1' : 'md:col-span-1'}
+          className={post.featured ? 'col-span-2 md:col-span-1' : 'col-span-1'}
         >
           <Card className="h-full bg-white/80 dark:bg-slate-800/80 dark:border-slate-700 overflow-hidden mb-4">
             {post.image && (
