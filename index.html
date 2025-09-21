@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/pingo/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React + TS</title>
+    <script>
+      // Apply dark mode early to avoid flash; default is dark
+      (function () {
+        try {
+          var saved = localStorage.getItem('theme');
+          var mode = saved || 'dark';
+          if (mode === 'dark') document.documentElement.classList.add('dark');
+        } catch (e) {
+          document.documentElement.classList.add('dark');
+        }
+      })();
+    </script>
+    <script type="module" crossorigin src="/pingo/assets/index-CnXcTu5l.js"></script>
+    <link rel="stylesheet" crossorigin href="/pingo/assets/index-BXekYnpB.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
