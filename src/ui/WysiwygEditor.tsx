@@ -28,7 +28,7 @@ export function WysiwygEditor({ value, onChange }: Props) {
         }
         const script = document.createElement('script')
         script.id = id
-        script.src = 'https://cdn.ckeditor.com/ckeditor5/43.1.0/classic/ckeditor.js'
+        script.src = 'https://cdn.ckeditor.com/4.22.1/standard/ckeditor.js'
         script.async = true
         script.onload = () => resolve()
         script.onerror = () => reject(new Error('Failed to load CKEditor'))
